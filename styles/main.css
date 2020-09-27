@@ -74,8 +74,8 @@ h2 {
 }
 /* END ABOUT ME */
 
-/* PORTFOLIO */
-.carousel {
+/* PROJECTS */
+/* .carousel {
   max-width: 500px;
 }
 
@@ -85,9 +85,13 @@ h2 {
   border-radius: 2rem;
 }
 
-/* #portfolio-container {
+#portfolio-container {
   height: 60vh;
 } */
+
+#projects-container img {
+  min-width: 200px;
+}
 
 
 
