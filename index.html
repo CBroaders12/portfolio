@@ -17,9 +17,10 @@
 
 <body>
   <!--~ NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <a class="navbar-brand" href="#">
       <img src="./assets/Logo.png" alt="Conor Broaders" width="45" height="45" id="nav-logo">
+      Conor Broaders
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -34,16 +35,16 @@
           <a class="nav-link" href="#about-me-container">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Skills</a>
+          <a class="nav-link" href="#skills-container">Skills</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Projects</a>
+          <a class="nav-link" href="#projects-container">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Experience</a>
+          <a class="nav-link" href="#experience-container">Experience</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact-container">Contact</a>
         </li>
       </ul>
     </div>
@@ -51,7 +52,7 @@
   <!--~ END NAVBAR -->
 
   <!--~ JUMBOTRON -->
-  <div class="jumbotron jumbotron-fluid bump-down d-flex align-items-center">
+  <div class="jumbotron jumbotron-fluid  d-flex align-items-center">
     <div class="container">
       <h1 class="display-4 text-white jumbotron-name text-light">Conor Broaders</h1>
       <p class="lead text-light">Junior Developer</p>
@@ -60,12 +61,13 @@
   <!--~ END JUMBOTRON -->
 
   <!--~ ABOUT ME -->
-  <div class="container-fluid d-flex flex-wrap align-items-center bump-down" id="about-me-container">
+  <div class="container-fluid d-flex flex-wrap align-items-center  " id="about-me-container">
     <!-- <div class=""> -->
     <img src="./assets/Conor Broaders BassBaritone Headshot.jpg" alt="Conor Broaders" class="circle" width="75%">
     <!-- </div> -->
     <div class="text-center text-dark about-me-text">
       <h2>About Me</h2>
+      <!-- TODO: Write About me Section -->
       <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum, aut dolorum deserunt magnam doloribus
         consequatur iure placeat. Labore optio perspiciatis doloremque nisi veniam provident. Odio iste exercitationem
         porro deserunt explicabo? Molestias tempora, recusandae possimus neque minus enim provident praesentium eos
@@ -76,11 +78,192 @@
         aliquid perspiciatis? Dolor?</p>
     </div>
   </div>
+  <!--~ END ABOUT ME -->
+
+  <!--~ SKILLS -->
+  <div class="container-fluid   align-items-center" id="skills-container">
+    <h2 class="text-center">Skills</h2>
+    <!-- Javascript, Basic Python, HTML/CSS, GitHub-->
+    <div class="container d-flex flex-wrap justify-content-around">
+      <figure class="figure">
+        <img src="./assets/icons/html-5.png" class="figure-img" alt="HTML & CSS">
+        <figcaption class="figure-caption text-center">HTML5</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="./assets/icons/css.png" class="figure-img" alt="HTML & CSS">
+        <figcaption class="figure-caption text-center">CSS</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="./assets/icons/javascript.png" class="figure-img" alt="JavaScript">
+        <figcaption class="figure-caption text-center">JavaScript</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="./assets/icons/python.png" class="figure-img" alt="Python 3">
+        <figcaption class="figure-caption text-center">Python 3</figcaption>
+      </figure>
+      <figure class="figure">
+        <img src="./assets/icons/github.png" class="figure-img" alt="GitHub">
+        <figcaption class="figure-caption text-center">GitHub</figcaption>
+      </figure>
+    </div>
+  </div>
+  <!--~ END SKILLS -->
+
+  <!--~ PROJECTS -->
+  <div class="container-fluid  " id="projects-container">
+    <h2 class="text-center">Projects</h2>
+
+    <!-- TODO: Write project descriptions -->
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col m-auto">
+            <a href="https://cbroaders12.github.io/YNAB-Static-Layout/" target="blank"><img
+                src="assets/portfolioImages/ynab-static-layout.png" alt="Static Layout" width="100%"></a>
+          </div>
+          <div class="col mt-3 mb-3">
+            <h3 class="text-center ">Static Layout</h3>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis earum assumenda
+              minima deleniti
+              inventore
+              maiores ratione voluptatibus. Autem totam voluptates quidem tenetur numquam, vero tempore?</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m-auto">
+            <a href="https://codepen.io/cbroaders12/pen/oNxqmXy" target="blank"><img
+                src="assets/portfolioImages/creature-codepen.png" alt="CSS Creature" width="100%"></a>
+          </div>
+          <div class="col mt-3 mb-3">
+            <h3 class="text-center">CSS Creature</h3>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis earum assumenda
+              minima deleniti
+              inventore
+              maiores ratione voluptatibus. Autem totam voluptates quidem tenetur numquam, vero tempore?</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="row">
+          <div class="col m-auto">
+            <img src="assets/portfolioImages/pokedex-api-project.png" alt="Pokedex API Project" width="100%">
+          </div>
+          <div class="col mt-3 mb-3">
+            <h3 class="text-center">Pokedex</h3>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis earum assumenda
+              minima deleniti
+              inventore
+              maiores ratione voluptatibus. Autem totam voluptates quidem tenetur numquam, vero tempore?</p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col m-auto">
+            <img src="assets/200x200-placeholder.png" alt="" width="100%">
+          </div>
+          <div class="col mt-3 mb-3">
+            <h3 class="text-center">API Project #2</h3>
+            <p class="text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Facilis earum assumenda
+              minima deleniti
+              inventore
+              maiores ratione voluptatibus. Autem totam voluptates quidem tenetur numquam, vero tempore?</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--? Carousel -->
+    <!-- <div id="carouselExampleCaptions" class="carousel slide carousel-fade mx-auto w-50 mw-50 mb-4" data-ride="carousel"
+      style="height: 350px;">
+
+      <!--? Indicators -->
+    <!-- <ol class="carousel-indicators">
+        <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+        <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="https://cbroaders12.github.io/YNAB-Static-Layout/" target="blank"><img
+              src="assets/portfolioImages/ynab-static-layout.png" class="d-block w-100" alt="Static Layout"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>YNAB Static Layout</h5>
+            <p>A static recreation of the YNAB home page using HTML and CSS</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://cbroaders12.github.io/pokedex-api-project/" target="blank"><img
+              src="assets/portfolioImages/pokedex-api-project.png" class="d-block w-100"
+              alt="First Generation Pokedex"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First Generation Pokedex</h5>
+            <p>A simple pokedex web app, created using HTML/CSS and Javascript utilizing the Pokeapi</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://codepen.io/cbroaders12/pen/oNxqmXy" target="blank"><img
+              src="assets/portfolioImages/creature-codepen.png" class="d-block w-100" alt="CSS Creature CodePen"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <h5>CSS Creature</h5>
+            <p>A video game creature made from pure CSS</p>
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div> -->
 
 
+  </div>
+  <!--~ END PROJECTS -->
 
+  <!--~ EXPERIENCE -->
+  <div class="container-fluid" id="experience-container">
+    <h2 class="text-center">Experience</h2>
+    <div class="container-sm d-flex justify-content-around">
+      <a href="https://www.linkedin.com/in/conor-broaders-8845361b6/" target="blank">
+        <img src="assets/icons/linkedin.png" alt="LinkedIn">
+      </a>
+      <a href="#" target="blank">
+        <img src="assets/icons/resume.png" alt="My Resume">
+      </a>
+    </div>
+  </div>
+  <!--~ END EXPERIENCE -->
 
+  <!--~ CONTACT FORM  -->
+  <div class="container-sm  p-4" id="contact-container">
+    <h2 class="text-center">Contact Me</h2>
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8"
+      action="https://formspree.io/conor.broaders@gmail.com" method="post">
+      <fieldset id="fs-frm-inputs">
+        <label for="full-name">Full Name</label>
+        <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
+        <label for="email-address">Email Address</label>
+        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+        <label for="message">Message</label>
+        <textarea rows="5" name="message" id="message" required=""></textarea>
+        <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+      </fieldset>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+  <!--~ END CONTACT FORM -->
 
+  <!--~ FOOTER -->
+  <div class="container-fluid  bg-dark text-light p-4">
+    <p>Copyright &copy; Conor Broaders 2020</p>
+    Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a
+      href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+  </div>
 
   <!--! BOOTSTRAP SCRIPTS -->
   <script src=" https://code.jquery.com/jquery-3.5.1.slim.min.js"
