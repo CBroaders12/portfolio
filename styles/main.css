@@ -79,19 +79,17 @@ h2 {
 }
 /* END ABOUT ME */
 
-/* SKILLS */
+/* PROJECTS */
+#projects-container img {
+	min-width: 200px;
+}
+
 .zoom {
 	transition: transform 0.3s;
 }
 
 .zoom:hover {
 	transform: scale(1.1);
-}
-/* END SKILLS */
-
-/* PROJECTS */
-#projects-container img {
-	min-width: 200px;
 }
 /* END PROJECTS */
 
