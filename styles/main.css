@@ -80,20 +80,6 @@ h2 {
 /* END ABOUT ME */
 
 /* PROJECTS */
-/* .carousel {
-  max-width: 500px;
-}
-
-.carousel-caption{
-  background-color: rgb(82, 82, 82);
-  opacity: 0.8;
-  border-radius: 2rem;
-}
-
-#portfolio-container {
-  height: 60vh;
-} */
-
 #projects-container img {
 	min-width: 200px;
 }
