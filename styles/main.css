@@ -5,6 +5,11 @@
 	top: 71px;
 }
 
+html,
+body {
+	font-family: "Nanum Gothic" "Sans Serif";
+}
+
 h2 {
 	text-transform: uppercase;
 	line-height: 2em;
